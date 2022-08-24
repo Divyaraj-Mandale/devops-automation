@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DevopsIntegrationApplication {
 
-	@GetMapping("/home")
+	@GetMapping
 	public String message(){
 		return "welcome, this is team10..";
 	}
